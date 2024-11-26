@@ -27,4 +27,11 @@ public class Cantante{
     public void setPeloRapado(){
         peloRapado = !peloRapado;
     } 
+    public void imprimirDetalles(){
+        System.out.println("Cantante " + nombre + " |  tiene " + numeroGrammys + " grammys |  y actualmente lleva" + peloRapado + " |  el pelo");
+    }
+    
+    public String getEstado(){
+        return "Cantante" + nombre + " |  tiene " + numeroGrammys + " grammys |  y actualmente lleva " + peloRapado + " el pelo";
+    }
 }
